@@ -1,16 +1,11 @@
-import {HomePage} from './componentes/HomePage/'
-import Header from './componentes/Header/'
-import Footer from './componentes/Footer/'
+import React from 'react';
 import './App.css';
+import Rotas from './componentes/Routes';
 
-function App() {
-  return (
-    <div className="App">
-      <Header></Header>
-      <HomePage></HomePage>
-      <Footer></Footer>
-    </div>
-  );
-}
+const App = () => (
+  <div className="App">
+    <Rotas/>
+  </div>
+);
 
 export default App;
