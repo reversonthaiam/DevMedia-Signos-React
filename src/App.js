@@ -1,11 +1,8 @@
 import React from 'react';
-import './App.css';
-import Rotas from './componentes/Routes';
+import ListaDeSignos from './componentes/ListaDeSignos';
 
-const App = () => (
-  <div className="App">
-    <Rotas/>
-  </div>
-);
-
-export default App;
+export default function App() {
+  return (
+    <ListaDeSignos />
+  );
+}
